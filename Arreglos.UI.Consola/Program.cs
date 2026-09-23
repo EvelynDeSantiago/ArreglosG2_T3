@@ -19,7 +19,7 @@ internal class Program
         Console.WriteLine("\nArreglo ordenado ascendente");
         oMiArreglo.Ordenar();
         Console.WriteLine(oMiArreglo);
-        
+
         Console.WriteLine("\nArreglo ordenado desascendente");
         oMiArreglo.Ordenar(false);
         Console.WriteLine(oMiArreglo);
