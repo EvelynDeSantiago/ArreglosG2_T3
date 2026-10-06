@@ -12,11 +12,20 @@ internal class Program
 
         try
         {
-            for(int i = 0; i < oMiArreglo.N; i++)
-            {
-                oMiArreglo.Agregar(i * 3);
+            //for(int i = 0; i < oMiArreglo.N; i++)
+            //{
+            //    oMiArreglo.Agregar(i * 3);
 
-            }
+            //}
+
+            oMiArreglo.Agregar(10);
+            oMiArreglo.Agregar(5);
+            oMiArreglo.Agregar(-4);
+
+            Console.WriteLine(oMiArreglo);
+            Console.ReadKey();
+
+            oMiArreglo.Insertar(200, 50);
 
         }
         catch (Exception ex)
@@ -24,9 +33,9 @@ internal class Program
             Console.WriteLine(ex.Message);
         }
 
-
-
         Console.WriteLine(oMiArreglo);
+
+
 
 
         //oMiArreglo.Llenar(5, 20);
