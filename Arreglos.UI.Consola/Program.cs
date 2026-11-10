@@ -28,6 +28,17 @@ internal class Program
             verPares.Ordenar();
             Console.WriteLine(verPares);
 
+            Console.ReadKey();
+            Console.WriteLine("\nPrimos\n");
+            var verPrimos = oMiArreglo.ObtenerPrimos();
+            Console.WriteLine(verPrimos);
+
+            Console.WriteLine("\nPrimos ordenados\n");
+            verPrimos.Ordenar();
+            Console.WriteLine(verPrimos);
+
+
+
             //oMiArreglo.ObtenerPares();
             //Console.WriteLine(oMiArreglo);
 
